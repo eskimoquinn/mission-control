@@ -1,6 +1,6 @@
 package org.ithaka.cheetah.service;
 
-import org.ithaka.cheetah.beans.Train;
+import org.ithaka.cheetah.model.Train;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

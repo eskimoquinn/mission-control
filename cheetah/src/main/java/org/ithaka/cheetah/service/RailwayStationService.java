@@ -2,7 +2,7 @@ package org.ithaka.cheetah.service;
 
 import java.util.List;
 
-import org.ithaka.cheetah.beans.RailwayStation;
+import org.ithaka.cheetah.model.RailwayStation;
 
 
 public interface RailwayStationService {

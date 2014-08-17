@@ -3,7 +3,7 @@ package org.ithaka.cheetah.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ithaka.cheetah.beans.RailwayStation;
+import org.ithaka.cheetah.model.RailwayStation;
 import org.springframework.stereotype.Service;
 
 

@@ -1,4 +1,4 @@
-package org.ithaka.cheetah.beans;
+package org.ithaka.cheetah.model;
 
 public class RailwayStation {
 

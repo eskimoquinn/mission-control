@@ -2,7 +2,7 @@ package org.ithaka.cheetah.controller;
 
 import java.util.List;
 
-import org.ithaka.cheetah.beans.RailwayStation;
+import org.ithaka.cheetah.model.RailwayStation;
 import org.ithaka.cheetah.service.RailwayStationServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

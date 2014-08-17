@@ -2,7 +2,7 @@ package org.ithaka.cheetah.service;
 
 import java.util.List;
 
-import org.ithaka.cheetah.beans.Train;
+import org.ithaka.cheetah.model.Train;
 
 public interface TrainService {
     public List<Train> getAllTrains();

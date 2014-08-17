@@ -20,6 +20,11 @@ App.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'railwaystations/layout',
         controller: RailwayStationController
     });
+    
+    $routeProvider.when('/disciplines', {
+    	templateUrl: 'disciplines/layout',
+    	controller: DisciplineController
+    });
 
     $routeProvider.otherwise({redirectTo: '/cars'});
 }]);

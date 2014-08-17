@@ -1,0 +1,25 @@
+
+<div class="input-append">
+    <input style="width:358px; margin-left: 100px;" class="span2" type="text" ng-model="disciplineName" required min="1" />
+    <button class="btn btn-primary" ng-disabled="!disciplineName" ng-click="addNewDiscipline(disciplineName)">Add Discipline</button>
+</div>
+
+<h3 style="margin-left:100px;">Discipline List</h3>
+<div class="alert alert-info" style="width:400px;margin-left:100px;" ng-show="disciplines.length == 0">
+    No Disciplines found
+</div>
+<table class="table table-bordered table-striped" style="width:450px; margin-left: 100px;" ng-show="disciplines.length > 0">
+    <thead>
+        <tr>
+            <th style="text-align: center; width: 25px;">Action</th>
+            <th style="text-align: center;">Discipline Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="discipline in disciplines">
+            <td  style="width:70px;text-align:center;"><button class="btn btn-mini btn-danger" ng-click="removeDiscipline(discipline)">Remove</button></td>
+            <td>{{discipline}}</td>
+        </tr>
+    </tbody>
+</table>
+<button style="margin-left:100px;" class="btn btn-danger"  ng-show="disciplines.length > 1" ng-click="removeAllDisciplines()">Remove All Disciplines</button>

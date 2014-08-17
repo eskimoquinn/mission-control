@@ -1,6 +1,6 @@
 package org.ithaka.cheetah.controller;
 
-import org.ithaka.cheetah.beans.Train;
+import org.ithaka.cheetah.model.Train;
 import org.ithaka.cheetah.service.TrainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
