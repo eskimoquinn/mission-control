@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: mission-control
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: edu.umdearborn
+Build-Jdk: 1.7.0_55
+Built-By: tgreen
+Created-By: IntelliJ IDEA
+Main-Class: missioncontrol.MissionControlApplication
+
