@@ -13,13 +13,13 @@ public class Device {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private long id;
 
     private String deviceName;
     private String deviceType;
     private String deviceStatus;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 

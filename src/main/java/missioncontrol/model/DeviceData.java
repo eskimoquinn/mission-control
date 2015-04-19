@@ -14,13 +14,13 @@ public class DeviceData {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-    private int deviceId;
+    private long id;
+    private long deviceId;
     private String deviceData;
     private String dataType;
     private Date timestamp;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -28,7 +28,7 @@ public class DeviceData {
         this.id = id;
     }
 
-    public int getDeviceId() {
+    public long getDeviceId() {
         return deviceId;
     }
 

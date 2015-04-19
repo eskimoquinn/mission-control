@@ -13,16 +13,16 @@ public class Messages {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-    private int deviceId;
+    private long id;
+    private long deviceId;
     private String message;
     private String messageType;
 
-    public int getDeviceId() {
+    public long getDeviceId() {
         return deviceId;
     }
 
-    public void setDeviceId(int deviceId) {
+    public void setDeviceId(long deviceId) {
         this.deviceId = deviceId;
     }
 
@@ -42,12 +42,12 @@ public class Messages {
         this.messageType = messageType;
     }
 
-    public int getId() {
+    public long getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 }
