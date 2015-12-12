@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Created by tgreen on 4/4/15.
+ * Created by tgreen
  */
 @Entity
 public class Device {

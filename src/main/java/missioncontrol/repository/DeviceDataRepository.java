@@ -5,7 +5,7 @@ import missioncontrol.model.Messages;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
- * Created by tgreen on 4/4/15.
+ * Created by tgreen
  */
 public interface DeviceDataRepository extends PagingAndSortingRepository<DeviceData, Long> {
 

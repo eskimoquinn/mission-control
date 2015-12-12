@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * Created by tgreen on 4/4/15.
+ * Created by tgreen
  */
 @Entity
 public class DeviceData {
